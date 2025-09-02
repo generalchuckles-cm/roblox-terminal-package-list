@@ -1,0 +1,16 @@
+-- This is a demo for our new language, TermiScript!
+PRINT "Hello from a custom scripting language!"
+WAIT 1
+PRINT "Creating a new part named 'myPart'..."
+CREATE myPart
+WAIT 1
+PRINT "Changing its properties..."
+PROPERTY myPart Color "255, 0, 128"
+PROPERTY myPart Anchored true
+PROPERTY myPart Size "6,6,6"
+PROPERTY myPart Position "0, 25, -15"
+WAIT 2
+PRINT "Let's give ourselves super jump!"
+PLAYER JumpPower 120
+PRINT "Try jumping!"
+PRINT "Demo complete."
